@@ -3,7 +3,7 @@ import './App.css'
 
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import Root from './routing/root.jsx';
+import Root from './Rooting/root.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import Products from './pages/Products.jsx';
 import Orders from './pages/Orders.jsx';
