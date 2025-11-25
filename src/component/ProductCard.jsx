@@ -5,6 +5,7 @@ function ProductCard({ product }) {
         <img className="w-20" src={product.image} alt="" />
       </td>
       <td className="border border-gray-300 text-center p-2">{product.name}</td>
+       
       
       <td className="border border-gray-300 p-2 text-center">₹{product.price}</td>
       <td className="border border-gray-300 p-2 flex gap-2 justify-center">

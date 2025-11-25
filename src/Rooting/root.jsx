@@ -35,7 +35,7 @@ function Root() {
           <ul className="hidden lg:block space-y-4">
             <li className='border-b border-y border-s hover:border-[#ef4444]  px-2 w-50'>
               <NavLink to="/products" className="flex gap-2 text-center text-lg items-center hover:text-[#ef4444] ">
-                <i className="bx bx-package"></i> Products
+                <i className="bx bx-package"></i> Items
               </NavLink>
             </li>
             <li className='border-b border-y border-s hover:border-[#ef4444]  px-2 w-50'>
@@ -43,9 +43,11 @@ function Root() {
                 <i className="bx bx-check-square"></i> Orders
               </NavLink>
             </li>
-            <li className='border-b border-y border-s hover:border-[#ef4444]  px-2 w-50'>
-              <NavLink to="/users" className="flex gap-2 items-center text-lg hover:text-[#ef4444]">
-                <i className="bx bx-user"></i> Users
+           
+
+             <li className='border-b border-y border-s hover:border-[#ef4444]  px-2 w-50'>
+              <NavLink to="/additems" className="flex gap-2 items-center text-lg hover:text-[#ef4444]">
+                <i class='bxr  bx-plus-circle'></i>  Add Items
               </NavLink>
             </li>
           </ul>

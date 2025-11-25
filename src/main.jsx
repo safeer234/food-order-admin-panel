@@ -7,11 +7,12 @@ import Root from './Rooting/root.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import Products from './pages/Products.jsx';
 import Orders from './pages/Orders.jsx';
-import Users from './pages/Users.jsx';
+import AddItems from './pages/AddItems.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,9 +28,10 @@ const router = createBrowserRouter([
         path: "/orders",
         element: <Orders />,
       },
+     
        {
-        path: "/users",
-        element: <Users />,
+        path: "/additems",
+        element: <AddItems />,
       },
     ],
   },
